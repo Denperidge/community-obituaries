@@ -1,0 +1,7 @@
+export default function (configData) {
+    console.log(configData)
+    console.log("---")
+    return {
+        layout: "person.html"
+    }
+}

@@ -1,0 +1,13 @@
+---
+layout: base.html
+pagination:
+    data: obituaries
+    size: 1
+    alias: person
+eleventyComputed:
+    title: "{{person.first_name}} - Rest In Peace &lt;3"
+    permalink: "{{person.id}}/index.html"
+tags:
+    - obituary
+---
+<h1>{{person.first_name}}</h1>
