@@ -1,8 +1,13 @@
 ---
 layout: base.html
 ---
-    <ul>
-    {% for line in mydata.lines %}
-        <li>{{line}}</li>
+<h2>Obituaries</h2>
+<ul>
+    {% for person in obituaries %}
+    <li>
+        <a href="/{{person.id}}">
+            {{person.first_name}}
+        </a>
+    </li>
     {% endfor %}
-    </ul>
+</ul>

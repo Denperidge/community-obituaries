@@ -1,3 +1,5 @@
 - id: cat
   first_name: Cat
   pronouns: she/it
+  birthdate: 1/1/1990
+  deathdate: 1/1/2024
