@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{config.title}}</title>
+    <title>{{title | default: config.title}}</title>
     <link rel="stylesheet" href="/static/stylesheet.css">
 
 </head>
 <body>
     <header>
         <a href="/">
-            <h1>{{ title | default: config.title }}</h1>
+            <h1>{{ config.title }}{% if posttitle %}<br>{{posttitle}}{% endif %}</h1>
         </a>
         <p>{{ config.description }}</p>
     </header>
