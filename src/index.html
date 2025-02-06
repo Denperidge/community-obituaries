@@ -2,11 +2,15 @@
 layout: base.html
 ---
 <h2>Obituaries</h2>
-<ul>
+<ul id="obituaries">
     {% for person in obituaries %}
     <li>
         <a href="/{{person.id}}">
-            {{person.first_name}}
+            <h3>{{person.first_name}} {{person.last_name}}</h3>
+            <p>{{person.pronouns}}</p>
+            <p>{{person.birthdate}} - {{person.deathdate}}</p>
+            <hr>
+            <p>{{person.intro}}</p>
         </a>
     </li>
     {% endfor %}

@@ -1,3 +1,16 @@
-body {
-    font-size: 2em;
+html {
+    font-size: 18px;
 }
+
+#obituaries {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0;
+}
+#obituaries h3 {
+    margin: 0;
+    padding: 0;
+}
+

@@ -10,5 +10,20 @@ eleventyComputed:
 tags:
     - obituary
 ---
-<h2>{{person.first_name}} {{person.last_name}}</h2>
-<p>{{person.birthdate}} - {{person.deathdate}}</p>
+<article>
+    <header>
+        <h2>{{person.first_name}} {{person.last_name}}</h2>
+        <p class="pronouns">{{person.pronouns}}</p>
+        <p class="dates">{{person.birthdate}} - {{person.deathdate}}</p>
+    </header>
+    <hr>
+    <p class="intro">{{person.intro}}</p>
+    <ul id="texts">
+        {% for text in person.texts %}
+        <li>
+            <h3>{{text.title}}</h3>
+            <p>{{text.content}}</p>
+        </li>
+        {% endfor %}
+    </ul>
+</article>

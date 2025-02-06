@@ -1,5 +1,21 @@
 - id: cat
   first_name: Cat
+  last_name: C
   pronouns: she/it
   birthdate: 1/1/1990
   deathdate: 1/1/2024
+  intro: She is not dead, and is only test data
+  texts:
+    - title: From Cat
+      content: Don't worry, I'm just test data! For now, I suppose.
+
+- id: test
+  first_name: Test
+  last_name: Data
+  pronouns: he/they
+  birthdate: 1/1/1995
+  deathdate: 1/1/2020
+  intro: Survived by their friends and family
+  texts:
+    - title: From their family
+      content: Example text content
