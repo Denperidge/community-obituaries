@@ -8,7 +8,7 @@ layout: base.html
         <a class="obituary-link" href="/{{person.id}}">
             <h3 class="name">{{person.first_name}} {{person.last_name}}</h3>
             <p class="pronouns">{{person.pronouns}}</p>
-            <p class="dates">{{person.birthdate}} - {{person.deathdate}}</p>
+            <p class="dates">{{person.birthdate}} - {{person.deathdate}} (age {{person.birthdate | calculateAge: person.deathdate }})</p>
             <hr>
             <p class="intro">{{person.intro}}</p>
         </a>
