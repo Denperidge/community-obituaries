@@ -6,7 +6,7 @@ pagination:
     alias: person
 eleventyComputed:
     title: "{{person.first_name}} {{person.last_name}} - Rest In Peace"
-    posttitle: "{{person.first_name}} {{person.last_name}} ({{person.birthdate}} - {{person.deathdate}})"
+    posttitle: "{{person.first_name}} {{person.last_name}} ({{person.birthdate | date: config.date_format}} - {{person.deathdate | date: config.date_format}})"
     permalink: "{{person.id}}/index.html"
 tags:
     - obituary
@@ -15,7 +15,7 @@ tags:
     <header id="person">
         <h2 class="name">{{person.first_name}} {{person.last_name}}</h2>
         <p class="pronouns">{{person.pronouns}}</p>
-        <p class="dates">{{person.birthdate}} - {{person.deathdate}}</p>
+        <p class="dates">{{person.birthdate | date: config.date_format}} - {{person.deathdate | date: config.date_format}}</p>
     </header>
     <hr>
     <p class="intro">{{person.intro}}</p>

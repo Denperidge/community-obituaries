@@ -6,7 +6,6 @@
   },
   "dependencies": {
     "@11ty/eleventy": "^3.0.0",
-    "dayjs": "^1.11.13",
     "js-yaml": "^4.1.0"
   }
 }

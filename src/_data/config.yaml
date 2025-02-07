@@ -1,5 +1,3 @@
 title: "Community Obituaries"
 description: "Preserving the lives lost in and around the Antwerp trans/queer community"
-date_formats:
-  - "DD/MM/YYYY"
-  - "D/M/YYYY"
+date_format: "%d/%m/%Y"
