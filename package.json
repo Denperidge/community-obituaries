@@ -1,5 +1,8 @@
 {
+  "name": "community-obituaries",
+  "description": "An obituary site tool for the people you've lost in your communities",
   "type": "module",
+  "version": "0.1.0",
   "scripts": {
     "start": "eleventy --serve",
     "build": "eleventy"
@@ -7,5 +10,14 @@
   "dependencies": {
     "@11ty/eleventy": "^3.0.0",
     "js-yaml": "^4.1.0"
+  },
+  "author": "Denperidge",
+  "homepage": "https://github.com/Denperidge/community-obituaries#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Denperidge/community-obituaries.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Denperidge/community-obituaries/issues"
   }
 }
