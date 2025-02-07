@@ -1,5 +1,29 @@
 html {
     font-size: 18px;
+    background-color: #181818;
+    color: white;
+}
+
+a {
+    text-underline-offset: 0.35em;
+}
+
+a:link, a:visited {
+    color: white;
+}
+
+a:visited {
+    text-decoration-color: #a8a8a8;
+}
+
+a:hover {
+
+}
+
+a:active {}
+
+.pronouns {
+    font-size: 0.9em;
 }
 
 #obituaries {
@@ -16,4 +40,8 @@ html {
 
 #obituary header, #obituary .intro {
     text-align: center;
+}
+
+#obituary h2 {
+    margin-bottom: 0;
 }

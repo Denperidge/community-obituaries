@@ -4,13 +4,13 @@ layout: base.html
 <h2>Obituaries</h2>
 <ul id="obituaries">
     {% for person in obituaries %}
-    <li>
-        <a href="/{{person.id}}">
-            <h3>{{person.first_name}} {{person.last_name}}</h3>
-            <p>{{person.pronouns}}</p>
-            <p>{{person.birthdate}} - {{person.deathdate}}</p>
+    <li class="obituary">
+        <a class="obituary-link" href="/{{person.id}}">
+            <h3 class="name">{{person.first_name}} {{person.last_name}}</h3>
+            <p class="pronouns">{{person.pronouns}}</p>
+            <p class="dates">{{person.birthdate}} - {{person.deathdate}}</p>
             <hr>
-            <p>{{person.intro}}</p>
+            <p class="intro">{{person.intro}}</p>
         </a>
     </li>
     {% endfor %}

@@ -5,15 +5,15 @@ pagination:
     size: 1
     alias: person
 eleventyComputed:
-    title: "{{person.first_name}} {{person.last_name}}, Rest In Peace &lt;3"
+    title: "{{person.first_name}} {{person.last_name}} - Rest In Peace"
     posttitle: "{{person.first_name}} {{person.last_name}} ({{person.birthdate}} - {{person.deathdate}})"
     permalink: "{{person.id}}/index.html"
 tags:
     - obituary
 ---
 <article id="obituary">
-    <header>
-        <h2>{{person.first_name}} {{person.last_name}}</h2>
+    <header id="person">
+        <h2 class="name">{{person.first_name}} {{person.last_name}}</h2>
         <p class="pronouns">{{person.pronouns}}</p>
         <p class="dates">{{person.birthdate}} - {{person.deathdate}}</p>
     </header>
@@ -21,9 +21,9 @@ tags:
     <p class="intro">{{person.intro}}</p>
     <ul id="texts">
         {% for text in person.texts %}
-        <li>
-            <h3>{{text.title}}</h3>
-            <p>{{text.content}}</p>
+        <li class="text">
+            <h3 class="text-title">{{text.title}}</h3>
+            <p class="text-content">{{text.content}}</p>
         </li>
         {% endfor %}
     </ul>
