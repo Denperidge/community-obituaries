@@ -8,17 +8,16 @@
 
 </head>
 <body>
-    <header>
-        <a href="/">
+    <header id="site-info">
+        <a aria-label="Home" href="/">
             <h1>{{ config.title }}{% if posttitle %}<br>{{posttitle}}{% endif %}</h1>
         </a>
         <p>{{ config.description }}</p>
     </header>
-    <main id="main">
+    <main id="content">
         {{ content }}
     </main>
     <footer>
-
     </footer>
 </body>
 </html>

@@ -5,6 +5,7 @@ html {
 }
 
 a {
+    outline-offset: 0.45em;
     text-underline-offset: 0.35em;
 }
 
@@ -35,6 +36,20 @@ a:active {
     flex-wrap: wrap;
     padding: 0;
 }
+
+#obituaries-title {
+    margin-top: 1.5em;
+    margin-bottom: 1.25em;
+}
+
+#obituaries .obituary {
+    margin-bottom: 2.5em;
+}
+
+#obituaries .obituary a {
+    display: block;
+}
+
 #obituaries h3 {
     margin: 0;
     padding: 0;
