@@ -2,7 +2,7 @@
   first_name: Cat
   last_name: C
   pronouns: she/it
-  birthdate: 1/1/1990
+  birthdate: 2/1/1990
   deathdate: 1/1/2024
   intro: She is not dead, and is only test data
   texts:
@@ -13,8 +13,8 @@
   first_name: Test
   last_name: Data
   pronouns: he/they
-  birthdate: 1/1/1995
-  deathdate: 1/1/2020
+  birthdate: 22/02/1995
+  deathdate: 10/02/2020
   intro: Survived by their friends and family
   texts:
     - title: From their family
