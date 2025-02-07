@@ -31,7 +31,14 @@
     <main id="content">
         {{ content }}
     </main>
-    <footer>
+    {% if page.url == "/" %}
+    <hr>
+    <footer id="site-about">
+        <h2 class="nav-title sr-only">Navigation</h2>
+        <nav id="site-nav">
+            <a href="/about/">About</a>
+        </nav>
     </footer>
+    {% endif %}
 </body>
 </html>
