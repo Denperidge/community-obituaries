@@ -18,6 +18,7 @@ tags:
         <p class="pronouns">{{person.pronouns}}</p>
         <img class="image" src="/static/images/{{ person.image }}" alt="{{ person.image_alt }}"/>
         <p class="dates">{{person.birthdate | date: config.date_format}} - {{person.deathdate | date: config.date_format}}</p>
+        <p class="age">Passed away at {{person.birthdate | calculateAge: person.deathdate }} years old</p>
     </header>
     <hr>
     <p class="intro">{{person.intro}}</p>

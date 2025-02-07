@@ -25,7 +25,7 @@ a:active {
     color: #59f1ff;
 }
 
-.pronouns {
+.pronouns, .age {
     font-size: 0.9em;
 }
 
