@@ -16,6 +16,7 @@ tags:
     <header id="person">
         <h2 class="name">{{person.first_name}} {{person.last_name}}</h2>
         <p class="pronouns">{{person.pronouns}}</p>
+        <img class="image" src="/static/images/{{ person.image }}" alt="{{ person.image_alt }}"/>
         <p class="dates">{{person.birthdate | date: config.date_format}} - {{person.deathdate | date: config.date_format}}</p>
     </header>
     <hr>

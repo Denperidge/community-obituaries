@@ -1,10 +1,12 @@
 - id: cat
   first_name: Cat
   last_name: C
-  gender: Female
   pronouns: she/it
+  gender: Female
   birthdate: 1990-04-12
   deathdate: 2024-04-11
+  image: thispersondoesnotexist3.jpg
+  image_alt: Alt text here
   intro: She is not dead, and is only test data
   texts:
     - title: From Cat
@@ -17,6 +19,8 @@
   gender: Male
   birthdate: 1990-04-12
   deathdate: 2024-04-12
+  image: thispersondoesnotexist.jpg
+  image_alt: Other alt text here
   intro: Survived by their friends and family
   texts:
     - title: From their family
@@ -29,6 +33,8 @@
   gender: Non-Binary
   birthdate: 1990-04-12
   deathdate: 2024-04-13
+  image: thispersondoesnotexist2.jpg
+  image_alt: And another alttext here
   intro: Survived by their friends and family
   texts:
     - title: From their family

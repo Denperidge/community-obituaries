@@ -8,7 +8,8 @@ layout: base.html
         <a class="obituary-link" href="/{{person.id}}">
             <h3 class="name">{{person.first_name}} {{person.last_name}}</h3>
             <p class="pronouns">{{person.pronouns}}</p>
-            <p class="dates">{{person.birthdate | date: config.date_format}} - {{person.deathdate | date: config.date_format}} (age {{person.birthdate | calculateAge: person.deathdate }})</p>
+            <img class="image" src="/static/images/{{ person.image }}" alt="{{ person.image_alt }}"/>
+            <p class="dates">{{person.birthdate | date: config.date_format}} - {{person.deathdate | date: config.date_format}} (age {{person.birthdate | calculateAge: person.deathdate }})</p>            
             <hr>
             <p class="intro">{{person.intro}}</p>
         </a>
