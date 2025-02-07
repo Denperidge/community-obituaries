@@ -31,3 +31,7 @@ That's it! The resulting site will be output in the `dist/` folder.
 All content/basic editing (read: no-code-required based edits) can be done in the [src/_data](src/_data/) directory.
 - [config.yaml](src/_data/config.yaml) lets you edit the sites title, description, date format...
 - [obituaries.yaml](src/_data/obituaries.yaml) lets you edit the obituaries presented on the site.
+
+## Explanation
+### obituaries.yaml gender attribute
+The **gender** variable is solely used for the Opengraph `profile:gender` metadata. This is why `Male` and `Female` are used instead of... Man or woman. You may now say *"Cat, Non-Binary isn't a valid input for `profile:gender`"* and I'll say *"well that's an oversight on the protocol's part"* so just put whatever you want there.

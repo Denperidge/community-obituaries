@@ -1,4 +1,5 @@
 title: Community Obituaries
 description: Preserving the lives lost in and around the trans/queer community of Antwerp, Belgium.
+base_url: https://obituaries.neonpastel.net
 # For date format notation, see https://docs.python.org/3/library/datetime.html#strftime-and-strptime-format-codes
 date_format: "%d/%m/%Y"

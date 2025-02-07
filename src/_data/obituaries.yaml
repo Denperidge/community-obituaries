@@ -1,6 +1,7 @@
 - id: cat
   first_name: Cat
   last_name: C
+  gender: Female
   pronouns: she/it
   birthdate: 1990-04-12
   deathdate: 2024-04-11
@@ -13,6 +14,7 @@
   first_name: Test
   last_name: Data
   pronouns: he/they
+  gender: Male
   birthdate: 1990-04-12
   deathdate: 2024-04-12
   intro: Survived by their friends and family
@@ -24,6 +26,7 @@
   first_name: Test
   last_name: Data
   pronouns: he/they
+  gender: Non-Binary
   birthdate: 1990-04-12
   deathdate: 2024-04-13
   intro: Survived by their friends and family
